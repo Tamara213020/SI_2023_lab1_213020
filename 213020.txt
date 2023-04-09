@@ -1,1 +1,137 @@
-213020
+
+C:\Users\Tamara>mkdir SI_2023_lab1_213020
+
+C:\Users\Tamara>cd SI_2023_lab1_213020
+
+C:\Users\Tamara\SI_2023_lab1_213020>git init .
+
+C:\Users\Tamara\SI_2023_lab1_213020>notepad README.md
+
+C:\Users\Tamara\SI_2023_lab1_213020>git add .
+
+C:\Users\Tamara\SI_2023_lab1_213020>git commit -m "Initial commit"
+
+C:\Users\Tamara\SI_2023_lab1_213020>git remote add origin https://github.com/Tamara213020/SI_2023_lab1_213020.git
+
+C:\Users\Tamara\SI_2023_lab1_213020>git branch -M master
+
+C:\Users\Tamara\SI_2023_lab1_213020>git push -u origin master
+
+C:\Users\Tamara\SI_2023_lab1_213020>notepad SILab1.java
+
+C:\Users\Tamara\SI_2023_lab1_213020>git add .
+
+C:\Users\Tamara\SI_2023_lab1_213020>git commit -m "Add java class"
+
+C:\Users\Tamara\SI_2023_lab1_213020>git push https://github.com/Tamara213020/SI_2023_lab1_213020.git
+
+C:\Users\Tamara\SI_2023_lab1_213020>git branch bug1
+
+C:\Users\Tamara\SI_2023_lab1_213020>git branch bug2
+
+C:\Users\Tamara\SI_2023_lab1_213020>git branch bug3
+
+C:\Users\Tamara\SI_2023_lab1_213020>git checkout bug1
+Switched to branch 'bug1'
+
+C:\Users\Tamara\SI_2023_lab1_213020>notepad SILab1.java
+
+C:\Users\Tamara\SI_2023_lab1_213020>git add .
+
+C:\Users\Tamara\SI_2023_lab1_213020>git commit -m "Fix wrong loop for reading"
+
+C:\Users\Tamara\SI_2023_lab1_213020>git checkout master
+
+C:\Users\Tamara\SI_2023_lab1_213020>git checkout bug2
+
+C:\Users\Tamara\SI_2023_lab1_213020>notepad SILab1.java
+
+C:\Users\Tamara\SI_2023_lab1_213020>git add .
+
+C:\Users\Tamara\SI_2023_lab1_213020>git commit -m "Fix wrong condition in filterOddNumbers"
+
+C:\Users\Tamara\SI_2023_lab1_213020>git checkout master
+
+C:\Users\Tamara\SI_2023_lab1_213020>git checkout bug3
+
+C:\Users\Tamara\SI_2023_lab1_213020>notepad SILab1.java
+
+C:\Users\Tamara\SI_2023_lab1_213020>git add .
+
+C:\Users\Tamara\SI_2023_lab1_213020>git commit -m "Fix method sumEvenNumbers"
+
+C:\Users\Tamara\SI_2023_lab1_213020>git push https://github.com/Tamara213020/SI_2023_lab1_213020.git
+
+C:\Users\Tamara\SI_2023_lab1_213020>git pull https://github.com/Tamara213020/SI_2023_lab1_213020.git
+
+C:\Users\Tamara\SI_2023_lab1_213020>git checkout bug2
+
+C:\Users\Tamara\SI_2023_lab1_213020>git push https://github.com/Tamara213020/SI_2023_lab1_213020.git
+
+C:\Users\Tamara\SI_2023_lab1_213020>git checkout bug1
+
+C:\Users\Tamara\SI_2023_lab1_213020>git push https://github.com/Tamara213020/SI_2023_lab1_213020.git
+
+C:\Users\Tamara\SI_2023_lab1_213020>git checkout master
+
+C:\Users\Tamara\SI_2023_lab1_213020>git merge bug1
+
+C:\Users\Tamara\SI_2023_lab1_213020>git push https://github.com/Tamara213020/SI_2023_lab1_213020.git
+
+C:\Users\Tamara\SI_2023_lab1_213020>git checkout master
+
+C:\Users\Tamara\SI_2023_lab1_213020>git merge bug2
+
+C:\Users\Tamara\SI_2023_lab1_213020>git push https://github.com/Tamara213020/SI_2023_lab1_213020.git
+
+C:\Users\Tamara\SI_2023_lab1_213020>git checkout master
+
+C:\Users\Tamara\SI_2023_lab1_213020>git rebase bug3
+
+C:\Users\Tamara\SI_2023_lab1_213020>git push https://github.com/Tamara213020/SI_2023_lab1_213020.git
+
+C:\Users\Tamara\SI_2023_lab1_213020>git merge bug3
+
+C:\Users\Tamara\SI_2023_lab1_213020>git push https://github.com/Tamara213020/SI_2023_lab1_213020.git
+
+C:\Users\Tamara\SI_2023_lab1_213020>git status
+
+C:\Users\Tamara\SI_2023_lab1_213020>git rebase --force bug3
+
+C:\Users\Tamara\SI_2023_lab1_213020>git push https://github.com/Tamara213020/SI_2023_lab1_213020.git
+
+C:\Users\Tamara\SI_2023_lab1_213020>git checkout bug3
+
+C:\Users\Tamara\SI_2023_lab1_213020>git rebase master
+
+C:\Users\Tamara\SI_2023_lab1_213020>git push https://github.com/Tamara213020/SI_2023_lab1_213020.git
+
+C:\Users\Tamara\SI_2023_lab1_213020>git checkout master
+
+C:\Users\Tamara\SI_2023_lab1_213020>git merge bug3
+
+C:\Users\Tamara\SI_2023_lab1_213020>git push https://github.com/Tamara213020/SI_2023_lab1_213020.git
+
+C:\Users\Tamara\SI_2023_lab1_213020>git branch -d bug3
+
+C:\Users\Tamara\SI_2023_lab1_213020>git branch bug3
+
+C:\Users\Tamara\SI_2023_lab1_213020>notepad SILab1.java
+
+C:\Users\Tamara\SI_2023_lab1_213020>git add .
+
+C:\Users\Tamara\SI_2023_lab1_213020>git commit "Fix method sumEvenNumbers"
+
+C:\Users\Tamara\SI_2023_lab1_213020>git push https://github.com/Tamara213020/SI_2023_lab1_213020.git
+
+C:\Users\Tamara\SI_2023_lab1_213020>git branch -d bug3
+
+C:\Users\Tamara\SI_2023_lab1_213020>git push https://github.com/Tamara213020/SI_2023_lab1_213020.git
+
+C:\Users\Tamara\SI_2023_lab1_213020>git checkout master
+
+C:\Users\Tamara\SI_2023_lab1_213020>notepad logs.txt
+
+C:\Users\Tamara\SI_2023_lab1_213020>git add .
+
+C:\Users\Tamara\SI_2023_lab1_213020>git commit -m "Final commit"
