@@ -1,0 +1,320 @@
+Microsoft Windows [Version 10.0.19045.2788]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Tamara>mkdir SI_2023_lab1_213020
+
+C:\Users\Tamara>cd SI_2023_lab1_213020
+
+C:\Users\Tamara\SI_2023_lab1_213020>git init .
+Initialized empty Git repository in C:/Users/Tamara/SI_2023_lab1_213020/.git/
+
+C:\Users\Tamara\SI_2023_lab1_213020>notepad README.md
+
+C:\Users\Tamara\SI_2023_lab1_213020>git add .
+
+C:\Users\Tamara\SI_2023_lab1_213020>git commit -m "Initial commit"
+[master (root-commit) 084ff6c] Initial commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+
+C:\Users\Tamara\SI_2023_lab1_213020>git remote add origin https://github.com/Tamara213020/SI_2023_lab1_213020.git
+
+C:\Users\Tamara\SI_2023_lab1_213020>git branch -M master
+
+C:\Users\Tamara\SI_2023_lab1_213020>git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 236 bytes | 236.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Tamara213020/SI_2023_lab1_213020.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+C:\Users\Tamara\SI_2023_lab1_213020>notepad SILab1.java
+
+C:\Users\Tamara\SI_2023_lab1_213020>git add .
+
+C:\Users\Tamara\SI_2023_lab1_213020>git commit -m "Add java class"
+[master d8e43b8] Add java class
+ 1 file changed, 41 insertions(+)
+ create mode 100644 SILab1.java
+
+C:\Users\Tamara\SI_2023_lab1_213020>git push https://github.com/Tamara213020/SI_2023_lab1_213020.git
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 621 bytes | 621.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Tamara213020/SI_2023_lab1_213020.git
+   084ff6c..d8e43b8  master -> master
+
+C:\Users\Tamara\SI_2023_lab1_213020>git branch bug1
+
+C:\Users\Tamara\SI_2023_lab1_213020>git branch bug2
+
+C:\Users\Tamara\SI_2023_lab1_213020>git branch bug3
+
+C:\Users\Tamara\SI_2023_lab1_213020>git checkout bug1
+Switched to branch 'bug1'
+
+C:\Users\Tamara\SI_2023_lab1_213020>notepad SILab1.java
+
+C:\Users\Tamara\SI_2023_lab1_213020>git add .
+
+C:\Users\Tamara\SI_2023_lab1_213020>git commit -m "Fix wrong loop for reading"
+[bug1 9d2ab83] Fix wrong loop for reading
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+C:\Users\Tamara\SI_2023_lab1_213020>git checkout master
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+C:\Users\Tamara\SI_2023_lab1_213020>git checkout bug2
+Switched to branch 'bug2'
+
+C:\Users\Tamara\SI_2023_lab1_213020>notepad SILab1.java
+
+C:\Users\Tamara\SI_2023_lab1_213020>git add .
+
+C:\Users\Tamara\SI_2023_lab1_213020>git commit -m "Fix wrong condition in filterOddNumbers"
+[bug2 4dfcd72] Fix wrong condition in filterOddNumbers
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+C:\Users\Tamara\SI_2023_lab1_213020>git checkout master
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+C:\Users\Tamara\SI_2023_lab1_213020>git checkout bug3
+Switched to branch 'bug3'
+
+C:\Users\Tamara\SI_2023_lab1_213020>notepad SILab1.java
+
+C:\Users\Tamara\SI_2023_lab1_213020>git add .
+
+C:\Users\Tamara\SI_2023_lab1_213020>git commit -m "Fix method sumEvenNumbers"
+[bug3 acaff2f] Fix method sumEvenNumbers
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+C:\Users\Tamara\SI_2023_lab1_213020>git push https://github.com/Tamara213020/SI_2023_lab1_213020.git
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 321 bytes | 321.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote:
+remote: Create a pull request for 'bug3' on GitHub by visiting:
+remote:      https://github.com/Tamara213020/SI_2023_lab1_213020/pull/new/bug3
+remote:
+To https://github.com/Tamara213020/SI_2023_lab1_213020.git
+ * [new branch]      bug3 -> bug3
+
+C:\Users\Tamara\SI_2023_lab1_213020>git pull https://github.com/Tamara213020/SI_2023_lab1_213020.git
+From https://github.com/Tamara213020/SI_2023_lab1_213020
+ * branch            HEAD       -> FETCH_HEAD
+Already up to date.
+
+C:\Users\Tamara\SI_2023_lab1_213020>git checkou bug2
+git: 'checkou' is not a git command. See 'git --help'.
+
+The most similar command is
+        checkout
+
+C:\Users\Tamara\SI_2023_lab1_213020>git checkout bug2
+Switched to branch 'bug2'
+
+C:\Users\Tamara\SI_2023_lab1_213020>git push https://github.com/Tamara213020/SI_2023_lab1_213020.git
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 339 bytes | 339.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote:
+remote: Create a pull request for 'bug2' on GitHub by visiting:
+remote:      https://github.com/Tamara213020/SI_2023_lab1_213020/pull/new/bug2
+remote:
+To https://github.com/Tamara213020/SI_2023_lab1_213020.git
+ * [new branch]      bug2 -> bug2
+
+C:\Users\Tamara\SI_2023_lab1_213020>git checkout bug1
+Switched to branch 'bug1'
+
+C:\Users\Tamara\SI_2023_lab1_213020>git push https://github.com/Tamara213020/SI_2023_lab1_213020.git
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 319 bytes | 319.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote:
+remote: Create a pull request for 'bug1' on GitHub by visiting:
+remote:      https://github.com/Tamara213020/SI_2023_lab1_213020/pull/new/bug1
+remote:
+To https://github.com/Tamara213020/SI_2023_lab1_213020.git
+ * [new branch]      bug1 -> bug1
+
+C:\Users\Tamara\SI_2023_lab1_213020>git checkout master
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+C:\Users\Tamara\SI_2023_lab1_213020>git merge bug1
+Updating d8e43b8..9d2ab83
+Fast-forward
+ SILab1.java | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+C:\Users\Tamara\SI_2023_lab1_213020>git push https://github.com/Tamara213020/SI_2023_lab1_213020.git
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Tamara213020/SI_2023_lab1_213020.git
+   d8e43b8..9d2ab83  master -> master
+
+C:\Users\Tamara\SI_2023_lab1_213020>git checkout master
+Already on 'master'
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+C:\Users\Tamara\SI_2023_lab1_213020>git merge bug2
+Auto-merging SILab1.java
+Merge made by the 'ort' strategy.
+ SILab1.java | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+C:\Users\Tamara\SI_2023_lab1_213020>git push https://github.com/Tamara213020/SI_2023_lab1_213020.git
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 352 bytes | 352.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Tamara213020/SI_2023_lab1_213020.git
+   9d2ab83..e1033ef  master -> master
+
+C:\Users\Tamara\SI_2023_lab1_213020>git checkout master
+Already on 'master'
+Your branch is ahead of 'origin/master' by 4 commits.
+  (use "git push" to publish your local commits)
+
+C:\Users\Tamara\SI_2023_lab1_213020>git rebase bug3
+Successfully rebased and updated refs/heads/master.
+
+C:\Users\Tamara\SI_2023_lab1_213020>git push https://github.com/Tamara213020/SI_2023_lab1_213020.git
+To https://github.com/Tamara213020/SI_2023_lab1_213020.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/Tamara213020/SI_2023_lab1_213020.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+C:\Users\Tamara\SI_2023_lab1_213020>git merge bug3
+Already up to date.
+
+C:\Users\Tamara\SI_2023_lab1_213020>git push https://github.com/Tamara213020/SI_2023_lab1_213020.git
+To https://github.com/Tamara213020/SI_2023_lab1_213020.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/Tamara213020/SI_2023_lab1_213020.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+C:\Users\Tamara\SI_2023_lab1_213020>git status
+On branch master
+Your branch is ahead of 'origin/master' by 4 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+C:\Users\Tamara\SI_2023_lab1_213020>git rebase --force bug3
+Current branch master is up to date, rebase forced.
+Successfully rebased and updated refs/heads/master.
+
+C:\Users\Tamara\SI_2023_lab1_213020>git push https://github.com/Tamara213020/SI_2023_lab1_213020.git
+To https://github.com/Tamara213020/SI_2023_lab1_213020.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/Tamara213020/SI_2023_lab1_213020.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+C:\Users\Tamara\SI_2023_lab1_213020>git checkout bug3
+Switched to branch 'bug3'
+
+C:\Users\Tamara\SI_2023_lab1_213020>git rebase master
+Successfully rebased and updated refs/heads/bug3.
+
+C:\Users\Tamara\SI_2023_lab1_213020>git push https://github.com/Tamara213020/SI_2023_lab1_213020.git
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 641 bytes | 641.00 KiB/s, done.
+Total 6 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/Tamara213020/SI_2023_lab1_213020.git
+   acaff2f..8be2a4d  bug3 -> bug3
+
+C:\Users\Tamara\SI_2023_lab1_213020>git checkout master
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 4 commits.
+  (use "git push" to publish your local commits)
+
+C:\Users\Tamara\SI_2023_lab1_213020>git merge bug3
+Already up to date.
+
+C:\Users\Tamara\SI_2023_lab1_213020>git push https://github.com/Tamara213020/SI_2023_lab1_213020.git
+To https://github.com/Tamara213020/SI_2023_lab1_213020.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/Tamara213020/SI_2023_lab1_213020.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+C:\Users\Tamara\SI_2023_lab1_213020>git branch -d bug3
+Deleted branch bug3 (was 8be2a4d).
+
+C:\Users\Tamara\SI_2023_lab1_213020>git branch bug3
+
+C:\Users\Tamara\SI_2023_lab1_213020>notepad SILab1.java
+
+C:\Users\Tamara\SI_2023_lab1_213020>git add .
+
+C:\Users\Tamara\SI_2023_lab1_213020>git commit "Fix method sumEvenNumbers"
+error: pathspec 'Fix method sumEvenNumbers' did not match any file(s) known to git
+
+C:\Users\Tamara\SI_2023_lab1_213020>git push https://github.com/Tamara213020/SI_2023_lab1_213020.git
+To https://github.com/Tamara213020/SI_2023_lab1_213020.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/Tamara213020/SI_2023_lab1_213020.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+C:\Users\Tamara\SI_2023_lab1_213020>git branch -d bug3
+Deleted branch bug3 (was 8be2a4d).
+
+C:\Users\Tamara\SI_2023_lab1_213020>git push https://github.com/Tamara213020/SI_2023_lab1_213020.git
+To https://github.com/Tamara213020/SI_2023_lab1_213020.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/Tamara213020/SI_2023_lab1_213020.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+C:\Users\Tamara\SI_2023_lab1_213020>git checkout master
+Already on 'master'
+Your branch is ahead of 'origin/master' by 4 commits.
+  (use "git push" to publish your local commits)
